@@ -1,0 +1,3138 @@
+[
+  {
+    "input": [
+      16,
+      18,
+      11,
+      5,
+      12
+    ],
+    "expected": [
+      16,
+      18,
+      11,
+      5,
+      12
+    ],
+    "generated": [
+      16,
+      18,
+      11,
+      5,
+      12
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      3,
+      5,
+      18,
+      3,
+      6
+    ],
+    "expected": [
+      3,
+      5,
+      18,
+      3,
+      6
+    ],
+    "generated": [
+      3,
+      5,
+      18,
+      6
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      6,
+      12,
+      23,
+      4,
+      22
+    ],
+    "expected": [
+      6,
+      12,
+      23,
+      4,
+      22
+    ],
+    "generated": [
+      6,
+      12,
+      23,
+      4,
+      22
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      7,
+      11,
+      7
+    ],
+    "expected": [
+      7,
+      11,
+      7
+    ],
+    "generated": [
+      7,
+      11,
+      7
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      16,
+      5,
+      22,
+      16
+    ],
+    "expected": [
+      16,
+      5,
+      22,
+      16
+    ],
+    "generated": [
+      16,
+      5,
+      22,
+      16
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      4,
+      4,
+      8,
+      13
+    ],
+    "expected": [
+      4,
+      4,
+      8,
+      13
+    ],
+    "generated": [
+      4,
+      8,
+      13,
+      4
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      14,
+      13,
+      6,
+      16,
+      5
+    ],
+    "expected": [
+      14,
+      13,
+      6,
+      16,
+      5
+    ],
+    "generated": [
+      14,
+      13,
+      16,
+      6,
+      5
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      13,
+      13,
+      15
+    ],
+    "expected": [
+      13,
+      13,
+      15
+    ],
+    "generated": [
+      13,
+      13,
+      15
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      20,
+      23,
+      22,
+      23,
+      11,
+      21,
+      4
+    ],
+    "expected": [
+      20,
+      23,
+      22,
+      23,
+      11,
+      21,
+      4
+    ],
+    "generated": [
+      20,
+      23,
+      22,
+      4,
+      21,
+      23,
+      11
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      14,
+      9,
+      14,
+      7,
+      23,
+      3
+    ],
+    "expected": [
+      14,
+      9,
+      14,
+      7,
+      23,
+      3
+    ],
+    "generated": [
+      14,
+      9,
+      7,
+      3,
+      23
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      18,
+      22,
+      16,
+      12
+    ],
+    "expected": [
+      18,
+      22,
+      16,
+      12
+    ],
+    "generated": [
+      18,
+      22,
+      12,
+      16
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      16,
+      15,
+      15,
+      7
+    ],
+    "expected": [
+      16,
+      15,
+      15,
+      7
+    ],
+    "generated": [
+      16,
+      15,
+      7,
+      15
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      17,
+      20,
+      5,
+      20,
+      15,
+      4,
+      19
+    ],
+    "expected": [
+      17,
+      20,
+      5,
+      20,
+      15,
+      4,
+      19
+    ],
+    "generated": [
+      17,
+      20,
+      4,
+      20,
+      5,
+      15,
+      19
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      3,
+      22,
+      20,
+      23,
+      19,
+      12,
+      13
+    ],
+    "expected": [
+      3,
+      22,
+      20,
+      23,
+      19,
+      12,
+      13
+    ],
+    "generated": [
+      3,
+      22,
+      20,
+      23,
+      13,
+      12,
+      19
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      8,
+      8,
+      3,
+      22,
+      11
+    ],
+    "expected": [
+      8,
+      8,
+      3,
+      22,
+      11
+    ],
+    "generated": [
+      8,
+      8,
+      3,
+      11,
+      22
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      15,
+      6,
+      3
+    ],
+    "expected": [
+      15,
+      6,
+      3
+    ],
+    "generated": [
+      15,
+      3,
+      6
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      21,
+      14,
+      22,
+      11,
+      17,
+      17,
+      9
+    ],
+    "expected": [
+      21,
+      14,
+      22,
+      11,
+      17,
+      17,
+      9
+    ],
+    "generated": [
+      14,
+      21,
+      11,
+      17,
+      22,
+      9,
+      17
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      11,
+      10,
+      23,
+      23,
+      19
+    ],
+    "expected": [
+      11,
+      10,
+      23,
+      23,
+      19
+    ],
+    "generated": [
+      10,
+      11,
+      23,
+      19,
+      23
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      18,
+      3,
+      7,
+      3
+    ],
+    "expected": [
+      18,
+      3,
+      7,
+      3
+    ],
+    "generated": [
+      18,
+      3,
+      7,
+      3
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      11,
+      18,
+      6,
+      8,
+      22,
+      9,
+      5
+    ],
+    "expected": [
+      11,
+      18,
+      6,
+      8,
+      22,
+      9,
+      5
+    ],
+    "generated": [
+      11,
+      18,
+      6,
+      8,
+      5,
+      9
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      5,
+      7,
+      15
+    ],
+    "expected": [
+      5,
+      7,
+      15
+    ],
+    "generated": [
+      5,
+      7,
+      15
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      8,
+      5,
+      17,
+      15,
+      23,
+      11,
+      15
+    ],
+    "expected": [
+      8,
+      5,
+      17,
+      15,
+      23,
+      11,
+      15
+    ],
+    "generated": [
+      8,
+      5,
+      17,
+      11,
+      15,
+      23,
+      15
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      15,
+      8,
+      19,
+      3,
+      5,
+      13
+    ],
+    "expected": [
+      15,
+      8,
+      19,
+      3,
+      5,
+      13
+    ],
+    "generated": [
+      15,
+      19,
+      8,
+      13,
+      3,
+      5
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      23,
+      16,
+      10,
+      13,
+      14,
+      17,
+      21
+    ],
+    "expected": [
+      23,
+      16,
+      10,
+      13,
+      14,
+      17,
+      21
+    ],
+    "generated": [
+      16,
+      23,
+      10,
+      13,
+      17,
+      14,
+      21
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      15,
+      19,
+      20,
+      3
+    ],
+    "expected": [
+      15,
+      19,
+      20,
+      3
+    ],
+    "generated": [
+      19,
+      15,
+      20,
+      3
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      21,
+      4,
+      23,
+      17,
+      23,
+      21
+    ],
+    "expected": [
+      21,
+      4,
+      23,
+      17,
+      23,
+      21
+    ],
+    "generated": [
+      21,
+      4,
+      23,
+      23,
+      23
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      10,
+      21,
+      10
+    ],
+    "expected": [
+      10,
+      21,
+      10
+    ],
+    "generated": [
+      10,
+      21,
+      10
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      4,
+      4,
+      5,
+      22
+    ],
+    "expected": [
+      4,
+      4,
+      5,
+      22
+    ],
+    "generated": [
+      4,
+      22,
+      5,
+      4
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      21,
+      23,
+      12,
+      13,
+      17
+    ],
+    "expected": [
+      21,
+      23,
+      12,
+      13,
+      17
+    ],
+    "generated": [
+      21,
+      23,
+      12,
+      17,
+      13
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      15,
+      21,
+      4,
+      15,
+      17,
+      15,
+      21
+    ],
+    "expected": [
+      15,
+      21,
+      4,
+      15,
+      17,
+      15,
+      21
+    ],
+    "generated": [
+      15,
+      21,
+      4,
+      17,
+      21,
+      15,
+      15
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      15,
+      10,
+      15
+    ],
+    "expected": [
+      15,
+      10,
+      15
+    ],
+    "generated": [
+      15,
+      10,
+      15
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      5,
+      14,
+      11
+    ],
+    "expected": [
+      5,
+      14,
+      11
+    ],
+    "generated": [
+      5,
+      14,
+      11
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      20,
+      7,
+      15
+    ],
+    "expected": [
+      20,
+      7,
+      15
+    ],
+    "generated": [
+      7,
+      20,
+      15
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      10,
+      3,
+      16,
+      13,
+      7
+    ],
+    "expected": [
+      10,
+      3,
+      16,
+      13,
+      7
+    ],
+    "generated": [
+      10,
+      3,
+      13,
+      16,
+      7
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      21,
+      22,
+      16
+    ],
+    "expected": [
+      21,
+      22,
+      16
+    ],
+    "generated": [
+      21,
+      22,
+      16
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      21,
+      6,
+      20,
+      7,
+      23,
+      10,
+      5
+    ],
+    "expected": [
+      21,
+      6,
+      20,
+      7,
+      23,
+      10,
+      5
+    ],
+    "generated": [
+      21,
+      6,
+      7,
+      10,
+      23,
+      5
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      7,
+      23,
+      12
+    ],
+    "expected": [
+      7,
+      23,
+      12
+    ],
+    "generated": [
+      7,
+      23,
+      12
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      23,
+      20,
+      23,
+      7,
+      22
+    ],
+    "expected": [
+      23,
+      20,
+      23,
+      7,
+      22
+    ],
+    "generated": [
+      23,
+      20,
+      23,
+      7,
+      22
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      13,
+      15,
+      21,
+      11,
+      15,
+      10,
+      3
+    ],
+    "expected": [
+      13,
+      15,
+      21,
+      11,
+      15,
+      10,
+      3
+    ],
+    "generated": [
+      13,
+      15,
+      13,
+      10,
+      3,
+      11,
+      15
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      6,
+      6,
+      20,
+      4
+    ],
+    "expected": [
+      6,
+      6,
+      20,
+      4
+    ],
+    "generated": [
+      6,
+      6,
+      4,
+      20
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      4,
+      22,
+      16,
+      20,
+      13,
+      13
+    ],
+    "expected": [
+      4,
+      22,
+      16,
+      20,
+      13,
+      13
+    ],
+    "generated": [
+      4,
+      22,
+      13,
+      16,
+      20
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      23,
+      19,
+      11,
+      11,
+      11,
+      3
+    ],
+    "expected": [
+      23,
+      19,
+      11,
+      11,
+      11,
+      3
+    ],
+    "generated": [
+      19,
+      23,
+      11,
+      11,
+      3
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      14,
+      7,
+      18,
+      20,
+      12,
+      10
+    ],
+    "expected": [
+      14,
+      7,
+      18,
+      20,
+      12,
+      10
+    ],
+    "generated": [
+      14,
+      7,
+      7,
+      20,
+      10,
+      12
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      8,
+      22,
+      17
+    ],
+    "expected": [
+      8,
+      22,
+      17
+    ],
+    "generated": [
+      8,
+      22,
+      17
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      17,
+      6,
+      5,
+      21,
+      19,
+      16,
+      14
+    ],
+    "expected": [
+      17,
+      6,
+      5,
+      21,
+      19,
+      16,
+      14
+    ],
+    "generated": [
+      17,
+      6,
+      17,
+      5,
+      14,
+      21,
+      14
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      19,
+      13,
+      7,
+      16
+    ],
+    "expected": [
+      19,
+      13,
+      7,
+      16
+    ],
+    "generated": [
+      13,
+      19,
+      7,
+      16
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      19,
+      18,
+      23
+    ],
+    "expected": [
+      19,
+      18,
+      23
+    ],
+    "generated": [
+      19,
+      18,
+      23
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      16,
+      9,
+      15,
+      8
+    ],
+    "expected": [
+      16,
+      9,
+      15,
+      8
+    ],
+    "generated": [
+      16,
+      9,
+      16,
+      8
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      22,
+      23,
+      3,
+      14,
+      4
+    ],
+    "expected": [
+      22,
+      23,
+      3,
+      14,
+      4
+    ],
+    "generated": [
+      22,
+      23,
+      3,
+      14,
+      4
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      10,
+      21,
+      23
+    ],
+    "expected": [
+      10,
+      21,
+      23
+    ],
+    "generated": [
+      10,
+      21,
+      23
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      19,
+      17,
+      14,
+      7,
+      14,
+      4
+    ],
+    "expected": [
+      19,
+      17,
+      14,
+      7,
+      14,
+      4
+    ],
+    "generated": [
+      19,
+      19,
+      14,
+      17,
+      14,
+      7
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      12,
+      21,
+      9,
+      8,
+      20
+    ],
+    "expected": [
+      12,
+      21,
+      9,
+      8,
+      20
+    ],
+    "generated": [
+      12,
+      21,
+      9,
+      20,
+      8
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      4,
+      12,
+      18,
+      23,
+      19
+    ],
+    "expected": [
+      4,
+      12,
+      18,
+      23,
+      19
+    ],
+    "generated": [
+      4,
+      12,
+      23,
+      18,
+      19
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      22,
+      8,
+      13,
+      21,
+      22,
+      12,
+      16
+    ],
+    "expected": [
+      22,
+      8,
+      13,
+      21,
+      22,
+      12,
+      16
+    ],
+    "generated": [
+      22,
+      13,
+      8,
+      16,
+      12,
+      22
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      8,
+      8,
+      6
+    ],
+    "expected": [
+      8,
+      8,
+      6
+    ],
+    "generated": [
+      8,
+      6,
+      8
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      15,
+      11,
+      12,
+      6,
+      8,
+      16
+    ],
+    "expected": [
+      15,
+      11,
+      12,
+      6,
+      8,
+      16
+    ],
+    "generated": [
+      15,
+      11,
+      12,
+      16,
+      8,
+      6
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      7,
+      22,
+      17,
+      17,
+      15
+    ],
+    "expected": [
+      7,
+      22,
+      17,
+      17,
+      15
+    ],
+    "generated": [
+      7,
+      22,
+      17,
+      17,
+      15
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      19,
+      15,
+      7,
+      18,
+      6,
+      11,
+      6
+    ],
+    "expected": [
+      19,
+      15,
+      7,
+      18,
+      6,
+      11,
+      6
+    ],
+    "generated": [
+      19,
+      15,
+      7,
+      18,
+      6,
+      11
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      5,
+      12,
+      11,
+      5,
+      7
+    ],
+    "expected": [
+      5,
+      12,
+      11,
+      5,
+      7
+    ],
+    "generated": [
+      5,
+      12,
+      11,
+      7,
+      5
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      20,
+      8,
+      23
+    ],
+    "expected": [
+      20,
+      8,
+      23
+    ],
+    "generated": [
+      20,
+      23,
+      8
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      3,
+      4,
+      5,
+      3,
+      16
+    ],
+    "expected": [
+      3,
+      4,
+      5,
+      3,
+      16
+    ],
+    "generated": [
+      3,
+      4,
+      5,
+      16,
+      3
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      17,
+      22,
+      16,
+      8
+    ],
+    "expected": [
+      17,
+      22,
+      16,
+      8
+    ],
+    "generated": [
+      17,
+      22,
+      8,
+      16
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      19,
+      22,
+      11,
+      14,
+      18,
+      23,
+      4
+    ],
+    "expected": [
+      19,
+      22,
+      11,
+      14,
+      18,
+      23,
+      4
+    ],
+    "generated": [
+      19,
+      22,
+      11,
+      18,
+      14,
+      23
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      9,
+      16,
+      17,
+      18,
+      20
+    ],
+    "expected": [
+      9,
+      16,
+      17,
+      18,
+      20
+    ],
+    "generated": [
+      9,
+      16,
+      18,
+      20,
+      17
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      23,
+      22,
+      8
+    ],
+    "expected": [
+      23,
+      22,
+      8
+    ],
+    "generated": [
+      23,
+      8,
+      22
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      13,
+      14,
+      14,
+      9,
+      13,
+      15
+    ],
+    "expected": [
+      13,
+      14,
+      14,
+      9,
+      13,
+      15
+    ],
+    "generated": [
+      14,
+      13,
+      14,
+      15,
+      13
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      12,
+      10,
+      7,
+      23
+    ],
+    "expected": [
+      12,
+      10,
+      7,
+      23
+    ],
+    "generated": [
+      12,
+      10,
+      7,
+      23
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      3,
+      7,
+      17,
+      11
+    ],
+    "expected": [
+      3,
+      7,
+      17,
+      11
+    ],
+    "generated": [
+      7,
+      3,
+      17,
+      11
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      20,
+      22,
+      14,
+      11,
+      6,
+      5
+    ],
+    "expected": [
+      20,
+      22,
+      14,
+      11,
+      6,
+      5
+    ],
+    "generated": [
+      20,
+      22,
+      11,
+      14,
+      5,
+      6
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      9,
+      14,
+      13,
+      23,
+      17,
+      11,
+      10
+    ],
+    "expected": [
+      9,
+      14,
+      13,
+      23,
+      17,
+      11,
+      10
+    ],
+    "generated": [
+      9,
+      13,
+      14,
+      11,
+      17,
+      10
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      16,
+      21,
+      10,
+      21
+    ],
+    "expected": [
+      16,
+      21,
+      10,
+      21
+    ],
+    "generated": [
+      16,
+      21,
+      10,
+      21
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      19,
+      9,
+      7,
+      12,
+      11,
+      12
+    ],
+    "expected": [
+      19,
+      9,
+      7,
+      12,
+      11,
+      12
+    ],
+    "generated": [
+      19,
+      9,
+      12,
+      12,
+      11,
+      7
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      3,
+      18,
+      19,
+      3,
+      8
+    ],
+    "expected": [
+      3,
+      18,
+      19,
+      3,
+      8
+    ],
+    "generated": [
+      3,
+      18,
+      19,
+      8,
+      3
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      19,
+      3,
+      13,
+      9,
+      13,
+      19
+    ],
+    "expected": [
+      19,
+      3,
+      13,
+      9,
+      13,
+      19
+    ],
+    "generated": [
+      19,
+      3,
+      13,
+      9,
+      13,
+      19
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      5,
+      10,
+      18,
+      9,
+      21
+    ],
+    "expected": [
+      5,
+      10,
+      18,
+      9,
+      21
+    ],
+    "generated": [
+      5,
+      10,
+      18,
+      9,
+      21
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      10,
+      12,
+      20,
+      8,
+      10,
+      21
+    ],
+    "expected": [
+      10,
+      12,
+      20,
+      8,
+      10,
+      21
+    ],
+    "generated": [
+      10,
+      12,
+      8,
+      20,
+      21
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      21,
+      8,
+      18,
+      23
+    ],
+    "expected": [
+      21,
+      8,
+      18,
+      23
+    ],
+    "generated": [
+      21,
+      8,
+      18,
+      23
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      10,
+      12,
+      22,
+      18
+    ],
+    "expected": [
+      10,
+      12,
+      22,
+      18
+    ],
+    "generated": [
+      10,
+      12,
+      22,
+      18
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      17,
+      15,
+      12,
+      19,
+      21,
+      16
+    ],
+    "expected": [
+      17,
+      15,
+      12,
+      19,
+      21,
+      16
+    ],
+    "generated": [
+      17,
+      15,
+      12,
+      19,
+      16,
+      21
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      10,
+      15,
+      11,
+      3,
+      17,
+      20
+    ],
+    "expected": [
+      10,
+      15,
+      11,
+      3,
+      17,
+      20
+    ],
+    "generated": [
+      10,
+      11,
+      15,
+      17,
+      3,
+      20
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      18,
+      23,
+      4,
+      18,
+      10,
+      13,
+      23
+    ],
+    "expected": [
+      18,
+      23,
+      4,
+      18,
+      10,
+      13,
+      23
+    ],
+    "generated": [
+      18,
+      23,
+      4,
+      18,
+      13,
+      10
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      19,
+      18,
+      16,
+      8,
+      14,
+      16,
+      13
+    ],
+    "expected": [
+      19,
+      18,
+      16,
+      8,
+      14,
+      16,
+      13
+    ],
+    "generated": [
+      19,
+      18,
+      16,
+      8,
+      16,
+      13,
+      14
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      3,
+      16,
+      10,
+      15
+    ],
+    "expected": [
+      3,
+      16,
+      10,
+      15
+    ],
+    "generated": [
+      3,
+      16,
+      10,
+      15
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      19,
+      3,
+      22
+    ],
+    "expected": [
+      19,
+      3,
+      22
+    ],
+    "generated": [
+      19,
+      3,
+      22
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      11,
+      23,
+      22,
+      15
+    ],
+    "expected": [
+      11,
+      23,
+      22,
+      15
+    ],
+    "generated": [
+      11,
+      23,
+      22,
+      15
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      17,
+      10,
+      12,
+      20,
+      19
+    ],
+    "expected": [
+      17,
+      10,
+      12,
+      20,
+      19
+    ],
+    "generated": [
+      10,
+      17,
+      12,
+      20,
+      19
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      11,
+      9,
+      7,
+      14,
+      10,
+      6
+    ],
+    "expected": [
+      11,
+      9,
+      7,
+      14,
+      10,
+      6
+    ],
+    "generated": [
+      11,
+      9,
+      7,
+      10,
+      6
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      13,
+      13,
+      3,
+      23,
+      20
+    ],
+    "expected": [
+      13,
+      13,
+      3,
+      23,
+      20
+    ],
+    "generated": [
+      13,
+      3,
+      23,
+      20
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      17,
+      12,
+      7,
+      6
+    ],
+    "expected": [
+      17,
+      12,
+      7,
+      6
+    ],
+    "generated": [
+      17,
+      12,
+      7,
+      6
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      17,
+      18,
+      6,
+      11,
+      20,
+      21,
+      10
+    ],
+    "expected": [
+      17,
+      18,
+      6,
+      11,
+      20,
+      21,
+      10
+    ],
+    "generated": [
+      17,
+      18,
+      6,
+      11,
+      20,
+      10,
+      21
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      13,
+      10,
+      5
+    ],
+    "expected": [
+      13,
+      10,
+      5
+    ],
+    "generated": [
+      13,
+      10,
+      5
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      4,
+      15,
+      14,
+      7
+    ],
+    "expected": [
+      4,
+      15,
+      14,
+      7
+    ],
+    "generated": [
+      4,
+      15,
+      14,
+      7
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      15,
+      20,
+      5,
+      21
+    ],
+    "expected": [
+      15,
+      20,
+      5,
+      21
+    ],
+    "generated": [
+      15,
+      20,
+      5,
+      21
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      22,
+      23,
+      15,
+      5
+    ],
+    "expected": [
+      22,
+      23,
+      15,
+      5
+    ],
+    "generated": [
+      22,
+      23,
+      15,
+      5
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      23,
+      17,
+      13,
+      20
+    ],
+    "expected": [
+      23,
+      17,
+      13,
+      20
+    ],
+    "generated": [
+      23,
+      13,
+      17,
+      20
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      18,
+      15,
+      21,
+      8,
+      13
+    ],
+    "expected": [
+      18,
+      15,
+      21,
+      8,
+      13
+    ],
+    "generated": [
+      18,
+      15,
+      21,
+      8,
+      13
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      19,
+      11,
+      23,
+      3
+    ],
+    "expected": [
+      19,
+      11,
+      23,
+      3
+    ],
+    "generated": [
+      19,
+      11,
+      23,
+      3
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      20,
+      21,
+      19,
+      3
+    ],
+    "expected": [
+      20,
+      21,
+      19,
+      3
+    ],
+    "generated": [
+      20,
+      21,
+      3,
+      19
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      20,
+      20,
+      21,
+      8,
+      19,
+      19
+    ],
+    "expected": [
+      20,
+      20,
+      21,
+      8,
+      19,
+      19
+    ],
+    "generated": [
+      20,
+      20,
+      21,
+      8,
+      19
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      12,
+      10,
+      20,
+      13,
+      9,
+      3,
+      23
+    ],
+    "expected": [
+      12,
+      10,
+      20,
+      13,
+      9,
+      3,
+      23
+    ],
+    "generated": [
+      12,
+      10,
+      20,
+      12,
+      23,
+      13,
+      9
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      4,
+      17,
+      14,
+      3,
+      6,
+      12
+    ],
+    "expected": [
+      4,
+      17,
+      14,
+      3,
+      6,
+      12
+    ],
+    "generated": [
+      4,
+      17,
+      14,
+      3,
+      12,
+      6
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      13,
+      13,
+      23,
+      14
+    ],
+    "expected": [
+      13,
+      13,
+      23,
+      14
+    ],
+    "generated": [
+      13,
+      13,
+      23,
+      14
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      20,
+      11,
+      22,
+      15,
+      9,
+      4,
+      18
+    ],
+    "expected": [
+      20,
+      11,
+      22,
+      15,
+      9,
+      4,
+      18
+    ],
+    "generated": [
+      20,
+      11,
+      22,
+      15,
+      18,
+      9,
+      4
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      22,
+      9,
+      13
+    ],
+    "expected": [
+      22,
+      9,
+      13
+    ],
+    "generated": [
+      22,
+      9,
+      13
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      22,
+      6,
+      10
+    ],
+    "expected": [
+      22,
+      6,
+      10
+    ],
+    "generated": [
+      22,
+      10,
+      22
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      17,
+      22,
+      4,
+      7,
+      20,
+      10,
+      7
+    ],
+    "expected": [
+      17,
+      22,
+      4,
+      7,
+      20,
+      10,
+      7
+    ],
+    "generated": [
+      17,
+      22,
+      4,
+      7,
+      10,
+      20,
+      7
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      16,
+      5,
+      7,
+      10,
+      14
+    ],
+    "expected": [
+      16,
+      5,
+      7,
+      10,
+      14
+    ],
+    "generated": [
+      16,
+      5,
+      7,
+      10,
+      14
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      19,
+      6,
+      8,
+      20,
+      19
+    ],
+    "expected": [
+      19,
+      6,
+      8,
+      20,
+      19
+    ],
+    "generated": [
+      19,
+      6,
+      8,
+      20,
+      19
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      9,
+      8,
+      17,
+      10,
+      20,
+      7
+    ],
+    "expected": [
+      9,
+      8,
+      17,
+      10,
+      20,
+      7
+    ],
+    "generated": [
+      9,
+      8,
+      10,
+      7,
+      20
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      20,
+      4,
+      13,
+      23
+    ],
+    "expected": [
+      20,
+      4,
+      13,
+      23
+    ],
+    "generated": [
+      20,
+      13,
+      4,
+      23
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      15,
+      18,
+      8,
+      11,
+      18,
+      20,
+      7
+    ],
+    "expected": [
+      15,
+      18,
+      8,
+      11,
+      18,
+      20,
+      7
+    ],
+    "generated": [
+      15,
+      18,
+      8,
+      20,
+      18,
+      7,
+      11
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      18,
+      17,
+      17,
+      7,
+      19,
+      17
+    ],
+    "expected": [
+      18,
+      17,
+      17,
+      7,
+      19,
+      17
+    ],
+    "generated": [
+      18,
+      17,
+      18,
+      7,
+      17,
+      19
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      11,
+      11,
+      11,
+      7
+    ],
+    "expected": [
+      11,
+      11,
+      11,
+      7
+    ],
+    "generated": [
+      11,
+      11,
+      7
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      15,
+      6,
+      17
+    ],
+    "expected": [
+      15,
+      6,
+      17
+    ],
+    "generated": [
+      15,
+      6,
+      17
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      15,
+      22,
+      4
+    ],
+    "expected": [
+      15,
+      22,
+      4
+    ],
+    "generated": [
+      15,
+      22,
+      4
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      4,
+      10,
+      3
+    ],
+    "expected": [
+      4,
+      10,
+      3
+    ],
+    "generated": [
+      4,
+      10,
+      3
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      10,
+      17,
+      19
+    ],
+    "expected": [
+      10,
+      17,
+      19
+    ],
+    "generated": [
+      10,
+      19,
+      17
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      4,
+      21,
+      21,
+      9,
+      10,
+      3,
+      14
+    ],
+    "expected": [
+      4,
+      21,
+      21,
+      9,
+      10,
+      3,
+      14
+    ],
+    "generated": [
+      4,
+      21,
+      21,
+      10,
+      14,
+      3
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      3,
+      10,
+      11,
+      15,
+      8
+    ],
+    "expected": [
+      3,
+      10,
+      11,
+      15,
+      8
+    ],
+    "generated": [
+      10,
+      3,
+      11,
+      15,
+      8
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      9,
+      19,
+      17,
+      15
+    ],
+    "expected": [
+      9,
+      19,
+      17,
+      15
+    ],
+    "generated": [
+      9,
+      19,
+      17,
+      15
+    ],
+    "emitted_eos": true,
+    "exact_match": true
+  },
+  {
+    "input": [
+      21,
+      7,
+      10
+    ],
+    "expected": [
+      21,
+      7,
+      10
+    ],
+    "generated": [
+      21,
+      10,
+      7
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      17,
+      19,
+      14,
+      21,
+      5
+    ],
+    "expected": [
+      17,
+      19,
+      14,
+      21,
+      5
+    ],
+    "generated": [
+      17,
+      19,
+      21,
+      14,
+      5
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      23,
+      5,
+      4,
+      11,
+      7,
+      9
+    ],
+    "expected": [
+      23,
+      5,
+      4,
+      11,
+      7,
+      9
+    ],
+    "generated": [
+      23,
+      5,
+      4,
+      9,
+      7,
+      11
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      15,
+      16,
+      6
+    ],
+    "expected": [
+      15,
+      16,
+      6
+    ],
+    "generated": [
+      16,
+      15,
+      6
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      21,
+      9,
+      4,
+      9,
+      17
+    ],
+    "expected": [
+      21,
+      9,
+      4,
+      9,
+      17
+    ],
+    "generated": [
+      21,
+      9,
+      9,
+      17,
+      4
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      10,
+      9,
+      15,
+      13,
+      21
+    ],
+    "expected": [
+      10,
+      9,
+      15,
+      13,
+      21
+    ],
+    "generated": [
+      10,
+      9,
+      13,
+      15,
+      21,
+      13
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      19,
+      17,
+      8,
+      16,
+      23,
+      23
+    ],
+    "expected": [
+      19,
+      17,
+      8,
+      16,
+      23,
+      23
+    ],
+    "generated": [
+      19,
+      17,
+      23,
+      23,
+      23,
+      8
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  },
+  {
+    "input": [
+      8,
+      20,
+      21
+    ],
+    "expected": [
+      8,
+      20,
+      21
+    ],
+    "generated": [
+      20,
+      8,
+      21
+    ],
+    "emitted_eos": true,
+    "exact_match": false
+  }
+]

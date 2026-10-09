@@ -1,0 +1,44 @@
+{
+  "task": "Synthetic sequence copy; not a real-language benchmark",
+  "seed": 42,
+  "test_seed": 45,
+  "development_protocol": "Duration extended after a 600-step run because validation loss was still falling. The earlier holdout (seed 44) is excluded from this fresh final test (seed 45).",
+  "device": "cpu",
+  "steps": 2400,
+  "selected_step": 2350,
+  "checkpoint_selection": "minimum validation token cross-entropy",
+  "train_sequences": 1024,
+  "validation_sequences": 128,
+  "test_sequences": 128,
+  "config": {
+    "src_vocab": 24,
+    "tgt_vocab": 24,
+    "D": 32,
+    "heads": 4,
+    "d_ff": 64,
+    "N": 2,
+    "max_len": 16,
+    "dropout": 0.1,
+    "pad_id": 0
+  },
+  "parameters": 45080,
+  "initial_validation": {
+    "loss": 3.3369901180267334,
+    "teacher_forced_token_accuracy": 0.0416666679084301,
+    "greedy_exact_match": 0.0
+  },
+  "validation": {
+    "loss": 0.6311644315719604,
+    "teacher_forced_token_accuracy": 0.8118279576301575,
+    "greedy_exact_match": 0.375
+  },
+  "test": {
+    "loss": 0.6316964626312256,
+    "teacher_forced_token_accuracy": 0.8087649345397949,
+    "greedy_exact_match": 0.328125
+  },
+  "optimizer": "Adam, lr=0.001; batch_size=64; clip_grad_norm=1.0",
+  "torch": "2.8.0+cpu",
+  "python": "3.12.14",
+  "elapsed_seconds": 55.71
+}

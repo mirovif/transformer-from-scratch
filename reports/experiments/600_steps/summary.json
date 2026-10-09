@@ -1,0 +1,42 @@
+{
+  "task": "Synthetic sequence copy; not a real-language benchmark",
+  "seed": 42,
+  "device": "cpu",
+  "steps": 600,
+  "selected_step": 600,
+  "checkpoint_selection": "minimum validation token cross-entropy",
+  "train_sequences": 1024,
+  "validation_sequences": 128,
+  "test_sequences": 128,
+  "config": {
+    "src_vocab": 24,
+    "tgt_vocab": 24,
+    "D": 32,
+    "heads": 4,
+    "d_ff": 64,
+    "N": 2,
+    "max_len": 16,
+    "dropout": 0.1,
+    "pad_id": 0
+  },
+  "parameters": 45080,
+  "initial_validation": {
+    "loss": 3.3369901180267334,
+    "teacher_forced_token_accuracy": 0.0416666679084301,
+    "greedy_exact_match": 0.0
+  },
+  "validation": {
+    "loss": 0.9982609748840332,
+    "teacher_forced_token_accuracy": 0.6518816947937012,
+    "greedy_exact_match": 0.140625
+  },
+  "test": {
+    "loss": 0.9666523933410645,
+    "teacher_forced_token_accuracy": 0.6526315808296204,
+    "greedy_exact_match": 0.1640625
+  },
+  "optimizer": "Adam, lr=0.001; batch_size=64; clip_grad_norm=1.0",
+  "torch": "2.8.0+cpu",
+  "python": "3.12.14",
+  "elapsed_seconds": 18.91
+}

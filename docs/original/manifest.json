@@ -1,0 +1,14 @@
+{
+  "source": "User-provided DSC archive; model files only, preserved byte-for-byte.",
+  "files": {
+    "AddNorm.py": "702333cb0cdfff8dfecccfb4e65ebfb8c42efe4f5a9b94ccbba56ab1b079494e",
+    "FeedForward.py": "c42ad1f7667d820201c7904f953864a081e6611435154e840fbf4af0f341230e",
+    "MultiHeadAttention.py": "8016677dedf34587bb02ac72fc6e167782a1849b1f73de17f9bffb19128796f8",
+    "InputEmbedding.py": "821e3398822810890f630f06c5337421871eb741822a374c12a62cef3be89767",
+    "Encoder_Block.py": "7aadfa7de74ce2751a6ed0e3a5711b67792d10747e273ef4a470d23c17cb1fa4",
+    "Decoder_Block.py": "9ff34b72fbd5a663617f2987ae34df8760abd97410edde84951824adb11c20a5",
+    "Encoder.py": "b467f963e4c400a2b60a831a340be9acc50b7bdf357ba7483e46af47eb8c6b86",
+    "Decoder.py": "667b25d4b7e1985e39180e34a9cdd2c89c7ae4c7dd79b762cc41b4d261a30461",
+    "Transformer.py": "2948c04d53230ee9de5e04978e722ebd7d78e8a7fcaf5c86279f49d970c978b0"
+  }
+}
