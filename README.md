@@ -1,30 +1,17 @@
 # Transformer From Scratch · PyTorch
 
-**Авторский encoder–decoder Transformer с ручным Multi-Head Attention.**
-Реализация перенесена из предоставленного архива; классы и вычислительная архитектура сохранены.
-Исправлены masks, добавлены 19 тестов, обучение и autoregressive generation.
-Не используется готовый `nn.Transformer` или `nn.MultiheadAttention`.
+**Encoder–decoder Transformer, реализованный с нуля на PyTorch.**
+Multi-Head Attention, positional encoding, encoder и decoder реализованы отдельными модулями.
+Проект включает обучение на copy task, autoregressive generation и тесты.
+Attention вычисляется вручную через Q/K/V projections и матричные операции,
+без готовых `nn.Transformer` и `nn.MultiheadAttention`.
 
-![Архитектура авторской модели](images/architecture.svg)
+![Архитектура Transformer](images/architecture.svg)
 
 `Input → Embedding + Positional Encoding → Encoder → Decoder → Linear → Vocabulary`
 
 Source проходит в encoder; decoder получает BOS и сдвинутые target-токены,
 а также память encoder через cross-attention. Linear возвращает logits по словарю.
-
-## Что сохранено и что исправлено
-
-Авторские Q/K/V и W_o projections, разбиение heads, scaled dot-product attention,
-encoder/decoder blocks, ReLU Feed Forward Network, residual connections,
-post-norm LayerNorm и sinusoidal positional encoding сохранены.
-Девять исходных файлов лежат в [docs/original/](docs/original/), с проверяемыми SHA-256.
-Файлы учебных заданий и виртуальные окружения из архива не включены.
-
-Главная ошибка исходного attention — `unsqueeze_` изменял маску вызывающего кода:
-при повторном использовании в нескольких blocks её rank увеличивался.
-Теперь нормализация mask не изменяет вход. Также автоматически создаются causal mask
-для target и key padding mask для source/target. Полностью закрытые строки attention
-не порождают NaN. Подробности и предложения: [review.md](docs/review.md).
 
 ## Архитектура и формы тензоров
 
@@ -55,7 +42,7 @@ Source padding mask: `(B, 1, 1, T_src)`; combined target mask: `(B, 1, T_tgt, T_
 На fully masked строках веса принудительно равны нулю; выход W_o может содержать bias.
 Loss не учитывает PAD. Дополнительные сведения: [architecture.md](docs/architecture.md).
 
-## Реально выполненное обучение
+## Обучение на copy task
 
 Задача **синтетического копирования последовательности**, а не перевод или real-text NLP benchmark.
 Она проверяет, что attention, masks, teacher forcing, backpropagation и генерация работают вместе.
@@ -72,10 +59,8 @@ Loss не учитывает PAD. Дополнительные сведения:
 - Checkpoint выбран по минимальному validation loss на step **2350**.
   Test оценивается после выбора checkpoint.
 
-Первый эксперимент длился 600 steps и сохранён в [reports/experiments/600_steps/](reports/experiments/600_steps/).
-Из-за ещё снижающегося validation loss длительность обучения увеличена.
-Его прежний holdout seed=44 исключён из новой финальной test-выборки seed=45.
-Архитектура и learning rate между экспериментами не менялись.
+Конфигурация и протокол оценки записаны в [summary.json](reports/summary.json),
+а история обучения — в [training_history.csv](reports/training_history.csv).
 
 | Оценка | Фактическое значение |
 |---|---:|
@@ -108,7 +93,7 @@ Greedy exact match 32.8% остаётся ограниченным: разрыв
 causal invariance, padding keys, неизменность повторно переданных masks,
 finite forward/backward, градиенты через encoder/decoder/FFN, state_dict,
 dropout train/eval, odd D positional encoding, некорректные heads/masks/длина,
-раздельные datasets, tiny overfit и побайтное сохранение авторского исходника.
+раздельные datasets, tiny overfit и контроль целостности исходных файлов.
 
 ## Запуск после клонирования
 
@@ -126,15 +111,14 @@ python generate.py 3 7 12 4
 
 Зафиксированный lock использует CPU-wheel из официального PyTorch index.
 Обучение создаёт `checkpoints/copy_model.pt`; checkpoint не коммитится в Git.
-В предоставленном локальном пакете обученные веса сохранены.
 `generate.py` читает только state_dict и конфигурацию с `weights_only=True`.
 Отдельные `--steps`, `--seed`, `--test-seed`, `--device` позволяют создать новый эксперимент,
 но изменённая конфигурация уже не воспроизводит таблицу выше.
 
 ```text
-├── src/transformer/    # авторские классы + masks, copy task, training
-├── tests/              # поведение модели и сохранность исходников
-├── docs/original/      # девять исходных файлов
+├── src/transformer/    # модель, masks, copy task, training
+├── tests/              # attention, masks, градиенты и генерация
+├── docs/               # описание архитектуры
 ├── data/               # детерминированные synthetic splits
 ├── reports/            # history, metrics, generated examples
 ├── images/             # схема и learning curve
@@ -147,7 +131,6 @@ python generate.py 3 7 12 4
 Соответствие оригинальной статье не заявляется полностью: отсутствуют её training recipe,
 attention/residual dropout и реальный переводческий benchmark.
 Следующий шаг — tokenizer и открытый корпус, отдельный data protocol, scheduler/warmup
-и сравнение с простой seq2seq baseline. Изменения архитектуры стоит проверять отдельно
-от текущих исправлений, сохраняя тесты masks и causality.
+и сравнение с простой seq2seq baseline.
 
 Статья: [Attention Is All You Need](https://arxiv.org/abs/1706.03762).
